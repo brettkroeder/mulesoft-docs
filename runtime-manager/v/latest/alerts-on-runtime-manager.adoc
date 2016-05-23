@@ -170,13 +170,18 @@ The following properties are available and can be used in the alert Email to, Su
 
 [cols=","]
 |===
-|Variable |Description
+|Variable |Description |Applicable Alerts
 
-|`${app}` |The name of the application which is triggering the alert.
-|`${message}` |The message from the notification triggering the alert.
-|`${priority}` |The priority of the notification triggering the alert.
-|`${severity}` | The severity of the notification triggering the alert.
+|`${app}` |The name of the application which is triggering the alert. |All
+|`${severity}` | The severity of the notification triggering the alert. |All
+|`${period}` | Time period value to measure. |Period-based alerts
+|`${periodTimeUnit}` | Time period unit of measure for the alert. |Period-based alerts
+|`${threshold}` | Threshold set for the alert. |Period-based alerts
+|`${message}` |The message from the notification triggering the alert. |
+|`${priority}` |The priority of the notification triggering the alert.  |Custom Application Notification
 |===
+
+Not all properties are valid for all alerts.
 
 == Editing Existing Alerts
 
