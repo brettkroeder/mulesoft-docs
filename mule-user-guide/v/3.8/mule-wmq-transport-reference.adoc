@@ -25,7 +25,7 @@ The Mule WMQ transport is available only with Mule Enterprise Edition version 1.
 
 == Setting Up the Mule WMQ Transport
 
-Before you can use the Mule WMQ transport, you must copy the following JARs from the `java/lib` directory under your WebSphere MQ home directory into the `lib/user` directory under your Mule home directory:
+Before you can use the Mule WMQ transport, you must copy the following JARs from the `java/lib` directory under your WebSphere MQ home directory into the `lib/user` directory under your Mule home directory (ex: `studio-home/contents/eclipse/plugins/org.mule.tooling.server.3.8.1.ee_6.1.1.201609121705/mule/lib/user`:
 
 * `com.ibm.mq.jar`
 * `com.ibm.mqetclient.jar` (if using <<Transactions>>)
